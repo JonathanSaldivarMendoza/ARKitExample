@@ -12,6 +12,8 @@
 		9E367AC21F1D24F600D9BE74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E367AC01F1D24F600D9BE74 /* Main.storyboard */; };
 		9E367AC41F1D24F600D9BE74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E367AC31F1D24F600D9BE74 /* Assets.xcassets */; };
 		9E367AC71F1D24F600D9BE74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E367AC51F1D24F600D9BE74 /* LaunchScreen.storyboard */; };
+		9E367ACF1F1D252800D9BE74 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E367ACE1F1D252800D9BE74 /* art.scnassets */; };
+		9E367AD11F1D691900D9BE74 /* SpaceShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E367AD01F1D691900D9BE74 /* SpaceShip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9E367AC31F1D24F600D9BE74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E367AC61F1D24F600D9BE74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E367AC81F1D24F600D9BE74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E367ACE1F1D252800D9BE74 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = ../../../../../Downloads/art.scnassets; sourceTree = "<group>"; };
+		9E367AD01F1D691900D9BE74 /* SpaceShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		9E367ABB1F1D24F600D9BE74 /* ARKitExample */ = {
 			isa = PBXGroup;
 			children = (
+				9E367ACE1F1D252800D9BE74 /* art.scnassets */,
 				9E367ABC1F1D24F600D9BE74 /* AppDelegate.swift */,
 				9E367ABE1F1D24F600D9BE74 /* ViewController.swift */,
 				9E367AC01F1D24F600D9BE74 /* Main.storyboard */,
 				9E367AC31F1D24F600D9BE74 /* Assets.xcassets */,
 				9E367AC51F1D24F600D9BE74 /* LaunchScreen.storyboard */,
 				9E367AC81F1D24F600D9BE74 /* Info.plist */,
+				9E367AD01F1D691900D9BE74 /* SpaceShip.swift */,
 			);
 			path = ARKitExample;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E367AC71F1D24F600D9BE74 /* LaunchScreen.storyboard in Resources */,
+				9E367ACF1F1D252800D9BE74 /* art.scnassets in Resources */,
 				9E367AC41F1D24F600D9BE74 /* Assets.xcassets in Resources */,
 				9E367AC21F1D24F600D9BE74 /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E367AD11F1D691900D9BE74 /* SpaceShip.swift in Sources */,
 				9E367ABF1F1D24F600D9BE74 /* ViewController.swift in Sources */,
 				9E367ABD1F1D24F600D9BE74 /* AppDelegate.swift in Sources */,
 			);
@@ -275,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7PCRL22P9T;
 				INFOPLIST_FILE = ARKitExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gms.ARKitExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,6 +298,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7PCRL22P9T;
 				INFOPLIST_FILE = ARKitExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gms.ARKitExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
